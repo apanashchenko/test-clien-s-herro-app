@@ -38,11 +38,11 @@ public class HeroRequestFlowTest extends AbstractTestNGSpringContextTests {
     @BeforeClass(alwaysRun = true)
     public void setUp() {
         hero = new Hero();
-        hero.setName("bob b");
-        hero.setTitle("b-man");
-        hero.setDescription("hero");
+        hero.setName("Arthur Morgan");
+        hero.setTitle("QA-man");
+        hero.setDescription("Super QA");
         hero.setStatus("Requested");
-        hero.setAuthorComment("want be a hero");
+        hero.setAuthorComment("want be a super QA hero");
     }
 
 
